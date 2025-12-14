@@ -59,17 +59,14 @@ If Mantri guesses incorrectly, Chor steals Mantri’s points.
 
 ## API Example (Nice Bonus for GitHub)
 
-bash
+
 POST /room/create
 {
   "playerName": "Alice"
 }
-bash
-Copy code
+
 POST /room/join
 {
   "roomId": "ROOM_ID",
   "playerName": "Bob"
 }
-bash
-Copy code
